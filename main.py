@@ -17,7 +17,7 @@ class Tab(QTabWidget):
         self.setTabsClosable(True)
         self.setMovable(True)
         self.tabCloseRequested.connect(self.removeTab)
-        self.setDocumentMode(True) # Need for Mac, will be replaced by setStyleSheet
+        self.setDocumentMode(True) 
         self.setUsesScrollButtons(True)
 
         self.addTab(Editor(), 'Untitled')
