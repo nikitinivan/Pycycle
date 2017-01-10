@@ -5,3 +5,5 @@ Simple code editor based on PyQt5 and Qscintilla
 
 * PyQt5
 * Qscintilla 
+
+![Screenshot](Screenshot.png)
